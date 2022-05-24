@@ -1,4 +1,4 @@
-//Array- a data structure to strore information
+//Array- a data structure to represent a list of items
 //tecnicamente un array es un objeto
 
 let selectedColors = ['red', 'blue'];
