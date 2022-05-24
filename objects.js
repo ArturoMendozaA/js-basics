@@ -11,4 +11,10 @@ let person = {
     name: 'Mash',
     age: 18
 }
+// to modify the object properties theres 2 ways
+//dot notation
+person.name = 'Rin'
+console.log(person.name);
+//Bracket notation
+person ['name'] = 'Mary'
 console.log(person)
