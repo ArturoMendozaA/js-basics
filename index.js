@@ -12,3 +12,4 @@ console.log(names);
 // declare each variable on a single line
 let firsName = 'Mash';
 let lastName = 'Order'; 
+
