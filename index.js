@@ -13,3 +13,5 @@ console.log(names);
 let firsName = 'Mash';
 let lastName = 'Order'; 
 
+let selectedColors = ['red', 'blue'];
+console.log(selectedColors)
