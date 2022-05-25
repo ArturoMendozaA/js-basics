@@ -9,8 +9,12 @@ function square(number){
 }
 
 let number = square(2);
+//console.log is also a function call
 console.log(number)
 
 
 
 greet('Jaimito', 'Apeido')
+console.log(square(2))
+
+//function is a set of statements that either perform a task or calculate a value
