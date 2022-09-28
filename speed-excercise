@@ -1,0 +1,20 @@
+// Speed limit = 70;
+// 1 Point for every 5 kilometers above Sl
+//Math.floor(1.3)
+//12 points =>suspended
+const accelerometer = 135
+const speedVerify= (a)=>{
+  if (a > 70){
+    //let points = 0
+    let pointsOver70 = a-70;
+    let dividePoints = Math.floor(pointsOver70/5)
+    if (dividePoints>11)
+    	return ("License Suspended"+ " points: "+ dividePoints)
+    else return ("speed: "+ a + " points: "+ dividePoints)
+  }
+  else{
+    return ("speed: "+ a )
+  }
+}
+const result = speedVerify(accelerometer)
+console.log (result)
