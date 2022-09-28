@@ -1,0 +1,13 @@
+//write a funcion that takes two arguments and returns the maximum of the two
+let firstNum = 10
+let secondNum = 9
+const returnMax = ()=>{
+	if(firstNum> secondNum) console.log("The biggest number is", firstNum)
+	else if(firstNum< secondNum) console.log("The biggest number is", secondNum)
+  else console.log("The numbers are the same")  
+}
+returnMax()
+
+const max= (a,b)=>(firstNum>secondNum) ? a:b;
+let number = max(firstNum, secondNum)
+console.log("the greater number is:",number)

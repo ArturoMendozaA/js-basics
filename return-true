@@ -1,0 +1,8 @@
+//return true if its landscape
+let width = 800
+let height =1600
+function isLandscape(a, b){
+  return (a > b)
+}
+const result = isLandscape(width, height);
+console.log(result)
