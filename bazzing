@@ -1,0 +1,23 @@
+//fizzbuzz algorithm
+//Divisible by 3 Fizz
+//Divisible by 5 Buzz
+//Divisible by by 3 and5  FizzBuzz
+//else return number
+//if we dont pass a number =>"Not a number"
+
+const fizzBuzz = (a)=>{
+  let output = ""
+  if(!isNaN(a)){
+    if(a%3 === 0) output+= "Fizz";
+    if(a%5 === 0) output+= "Buzz";
+    return (output||a);
+  }else{
+	return "This is not a number"    
+  }
+}
+let input= 
+let result = fizzBuzz(input);
+console.log(result)
+
+
+ 
