@@ -1,0 +1,15 @@
+//Cuidado de donde pones el return, los brackets no perdonan
+const movie ={title:"some title", releaseYear: 2018, rating: 4.3, director:"Jaimico", actores:"one and another"};
+const numberStrings = (someObject)=>{
+  let counter = 0
+  for(let key in someObject){
+    if(typeof(someObject[key]) === "string"){
+      console.log(key,someObject[key])
+      counter++;
+    }
+  }
+  return counter
+  
+}
+const result = numberStrings(movie);
+console.log(result)

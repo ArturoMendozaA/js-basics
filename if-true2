@@ -1,0 +1,13 @@
+//Receive an array and return the number of thruthy elements of the array
+const array = [2,3,2,3]
+
+function countT(aa){
+    let count = 0;
+  for(let a of aa){
+    if(a)
+      count++;
+  }
+  return count;
+}
+const result = countT(array)
+console.log(result)

@@ -1,0 +1,13 @@
+//Receive an array and return the number of thruthy elements of the array
+const arrays= [1,2,3,2,3]
+const countThruty = (someArray)=>{
+  let thrutyElements= 0;
+someArray.map((a)=>{if (a)thrutyElements+=1})
+ //for(let property of someArray){if(property)thrutyElements+=1}
+    console.log()
+return thrutyElements
+  
+  }
+
+const result = countThruty(arrays)
+console.log(result)
