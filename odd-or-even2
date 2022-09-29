@@ -1,0 +1,11 @@
+//is it odd or even comparison operator
+let range = 10
+const oddOrEven= (limit)=>{
+  for (let i= 0 ; i<= limit; i++){
+    
+    let output = ( i%2 ===0) ? "even": "odd";
+  console.log(i, output)
+    }
+}
+const result = oddOrEven(range)
+console.log(result())

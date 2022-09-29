@@ -1,0 +1,15 @@
+//show numbers
+//Is it even or odd
+const numbers= 10
+const showNumbers = (a)=>{
+  for (let i = 0; i <= a; i++){
+    let output= "";
+    if(i%2 === 0) output+= "odd"
+    else{ output+="even"
+  }
+   console.log(i, output) 
+  }
+  
+}
+const result = showNumbers(numbers)
+console.log(result)
