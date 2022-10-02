@@ -1,0 +1,23 @@
+//sum of all the multiples of 3 and 5 within a limit
+const limit = 10
+const sum = givenLimit=>{
+  let multiplesof3 = 0;
+  let multiplesof5 = 0;
+  let sumOfMultiples = 0;
+  
+  for(let i= 1; i <=givenLimit;i++){ 
+    if(Number.isInteger(i/3)){
+      multiplesof3++
+      sumOfMultiples+= i
+    }
+    if(i%5===0){
+      multiplesof5++
+      sumOfMultiples+= i
+    }
+    //console.log(i, multiplesof3, multiplesof5)    
+}
+  
+  return sumOfMultiples
+}
+const result = sum(limit);
+console.log(result)
